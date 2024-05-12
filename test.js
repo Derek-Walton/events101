@@ -105,7 +105,7 @@ test(
     /* global lovelyButtonAttacher */
     lovelyButtonAttacher();
 
-    const lovely = document.querySelector("#thisisalovelyparagraph");
+    const lovely = document.querySelector("#button1");
 
     assert.equal(
       lovely.className,
